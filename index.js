@@ -551,7 +551,7 @@ function startAutoDailyClaim() {
     if (!claimRunning) {
       claimAllFaucetsWithDelay();
     }
-  },10000);
+  },86400000);
   claimAllFaucetsWithDelay();
   addLog("Auto Daily Claim Faucet All Network dimulai.", "system");
   claimFaucetSubMenu.setItems(getClaimFaucetSubMenuItems());
